@@ -3,18 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nddlamin <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: nddlamin <marvin@*42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/20 14:05:19 by nddlamin          #+#    #+#             */
-/*   Updated: 2020/06/20 16:54:18 by nddlamin         ###   ########.fr       */
+/*   Updated: 2020/06/21 13:33:52 by nddlamin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<unistd.h>
+#include <stdio.h>
 
-void	ft_ft(int *nbr)
+void ft_ft(int *nbr)
 {
-	if (nbr)
-	{
-		*nbr = 42;
-	}
+  int c;
+  c = *nbr;
 }
+
